@@ -1,4 +1,29 @@
 body {
 background-color: #333;
+}
+#Logo{
+background-color: #A9A9A9;
+margin: 40px;
+}
+#text{
+float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 200px; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 60px 20px 50px; /* Значения отступов */
+background-color: #D3D3D3;
+}
+#photo{
+margin: 10px 5px 20px 1200px; /* Значения отступов */
+padding: 5px; /* Поля вокруг текста */
+border: 1px solid #333; /* Параметры рамки */
 
+background-color: #808080;
+}
+#bot{
+background-color: #696969;
+margin: 107px;
+padding:15px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: both; /* Отменяем обтекание */
 }
