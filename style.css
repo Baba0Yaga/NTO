@@ -5,13 +5,17 @@ background-color: #333;
 
 #Logo{
 background-color: #A9A9A9;
-margin: 140px;
+margin: 90px;
+padding:60px; /* Поля вокруг текста */
+color: #fff; /* Цвет текста */
+clear: both; /* Отменяем обтекание */
 }
 
 
 #text{
 float: left; /* Обтекание справа */
-margin: 140px;
+margin: 90px;
+padding:60px;
 width: 500px; /* Ширина колонки */
 background-color: #D3D3D3;
 }
@@ -19,7 +23,8 @@ background-color: #D3D3D3;
 
 #photo{
 background-color: #808080;
-margin: 140px;
+margin: 90px;
+padding:60px;
  float: right; /* Обтекание справа */
   width: 25%; /* Ширина колонки */
 
@@ -28,7 +33,7 @@ margin: 140px;
 
 #bot{
 background-color: #696969;
-margin: 140px;
+margin: 90px;
 padding:15px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
     clear: both; /* Отменяем обтекание */
