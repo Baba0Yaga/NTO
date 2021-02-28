@@ -2,21 +2,39 @@ body {
 background-color: #333;
 }
 
-
-#Logo{
+.button {
+   
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+#Logo1{
 background-color: #A9A9A9;
 margin: 90px;
-padding:60px; /* РџРѕР»СЏ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
-color: #fff; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
-clear: both; /* РћС‚РјРµРЅСЏРµРј РѕР±С‚РµРєР°РЅРёРµ */
+padding:60px; /* Поля вокруг текста */
+color: #fff; /* Цвет текста */
+clear: both; /* Отменяем обтекание */
+}
+#Logo2{
+background-color: rosybrown;
+margin: 90px;
+padding:60px; /* Поля вокруг текста */
+color: #fff; /* Цвет текста */
+clear: both; /* Отменяем обтекание */
 }
 
-
 #text{
-float: left; /* РћР±С‚РµРєР°РЅРёРµ СЃРїСЂР°РІР° */
+float: left; /* Обтекание справа */
 margin: 90px;
 padding:60px;
-width: 500px; /* РЁРёСЂРёРЅР° РєРѕР»РѕРЅРєРё */
+width: 500px; /* Ширина колонки */
 background-color: #D3D3D3;
 }
 
@@ -25,8 +43,8 @@ background-color: #D3D3D3;
 background-color: #808080;
 margin: 90px;
 padding:60px;
- float: right; /* РћР±С‚РµРєР°РЅРёРµ СЃРїСЂР°РІР° */
-  width: 25%; /* РЁРёСЂРёРЅР° РєРѕР»РѕРЅРєРё */
+ float: right; /* Обтекание справа */
+  width: 25%; /* Ширина колонки */
 
 }
 
@@ -34,7 +52,7 @@ padding:60px;
 #bot{
 background-color: #696969;
 margin: 90px;
-padding:15px; /* РџРѕР»СЏ РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р° */
-    color: #fff; /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
-    clear: both; /* РћС‚РјРµРЅСЏРµРј РѕР±С‚РµРєР°РЅРёРµ */
+padding:15px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: both; /* Отменяем обтекание */
 }
